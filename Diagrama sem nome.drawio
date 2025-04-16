@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.13">
   <diagram name="Página-1" id="ZazNBpQyKhAmpYAaAy8F">
-    <mxGraphModel dx="965" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-37" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="516.87" height="608.6" as="geometry" />
+        </mxCell>
         <mxCell id="3eP5rDmazrHEjjWGiEFv-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="qQxu6jhVywTdWc3vpx0K-1" target="3eP5rDmazrHEjjWGiEFv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -42,6 +45,62 @@
         </mxCell>
         <mxCell id="3eP5rDmazrHEjjWGiEFv-11" value="paciente já cadastrado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-15" target="3eP5rDmazrHEjjWGiEFv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-15" value="recepcionista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-17" target="3eP5rDmazrHEjjWGiEFv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-17" value="Coletar dados do paciente." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-24" value="Verificar se paciente já tem cadastro." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-25" value="Realizar cadastro do paciente." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-27" value="Atualizar dados do paciente caso necessário." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-24" target="3eP5rDmazrHEjjWGiEFv-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="493" y="670" as="sourcePoint" />
+            <mxPoint x="523" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-24" target="3eP5rDmazrHEjjWGiEFv-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="730" as="sourcePoint" />
+            <mxPoint x="373" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-31" value="Extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eP5rDmazrHEjjWGiEFv-30">
+          <mxGeometry x="0.1828" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-32" value="Transferir paciente para a fila para a triagem." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-25" target="3eP5rDmazrHEjjWGiEFv-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="720" as="sourcePoint" />
+            <mxPoint x="670" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.975;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-27" target="3eP5rDmazrHEjjWGiEFv-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="810" as="sourcePoint" />
+            <mxPoint x="670" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-38" value="CADASTRO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="493.44" y="510" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
