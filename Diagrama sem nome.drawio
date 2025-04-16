@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.13">
   <diagram name="Página-1" id="ZazNBpQyKhAmpYAaAy8F">
-    <mxGraphModel dx="683" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="965" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,38 @@
         <mxCell id="qQxu6jhVywTdWc3vpx0K-1" value="recepcionista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="190" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3eP5rDmazrHEjjWGiEFv-1" value="cadastrar paciente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="180" width="120" height="80" as="geometry" />
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-1" target="3eP5rDmazrHEjjWGiEFv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-1" value="verificação de cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.362;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-1" target="3eP5rDmazrHEjjWGiEFv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307.0400000000001" y="288.6400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-7" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eP5rDmazrHEjjWGiEFv-5">
+          <mxGeometry x="-0.0767" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-6" value="cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-8" value="confirmar dados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.312;entryY=1.019;entryDx=0;entryDy=0;endArrow=classic;startFill=0;endFill=1;dashed=1;entryPerimeter=0;" edge="1" parent="1" source="3eP5rDmazrHEjjWGiEFv-1" target="3eP5rDmazrHEjjWGiEFv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-10" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3eP5rDmazrHEjjWGiEFv-9">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3eP5rDmazrHEjjWGiEFv-11" value="paciente já cadastrado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="190" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
